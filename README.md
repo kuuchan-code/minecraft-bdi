@@ -1,5 +1,6 @@
 # BDI on Mincraft Bedrock
 うつの程度を評価してくれるテストをMinecraft統合版で行えるようにしたときに使ったコマンドです。
+BDIの設問文や結果の日本語訳は[https://www.sannoclinic.jp/bdi.html](https://www.sannoclinic.jp/bdi.html)を参考にさせていただきました。
 
 # インターフェスの例
 ![インターフェスの例](screenshot-2022-11-12.png "サンプル")

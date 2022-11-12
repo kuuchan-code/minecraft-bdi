@@ -5,8 +5,8 @@
 /title @p times 0 220 0
 ```
 2. 設問と選択肢の表示
-/titleraw @p subtitle {"rawtext":[{"text":"a: 憂うつではない\nb: 憂うつである\nc: いつも憂うつから逃れることができない\nd: 耐えがたいほど、憂うつで不幸である"}]}
 ```
+/titleraw @p subtitle {"rawtext":[{"text":"a: 憂うつではない\nb: 憂うつである\nc: いつも憂うつから逃れることができない\nd: 耐えがたいほど、憂うつで不幸である"}]}
 /title @p title 1.
 /title @p actionbar 10 (delay 20)
 /title @p actionbar 9 (delay 20)

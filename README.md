@@ -31,7 +31,6 @@
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 14 scoreboard players add @p bdi 3
 ```
 4. 2と3のループを設問数分だけ行い合計点を得る。
-   [https://minecraft.fandom.com/ja/wiki/%E9%96%A2%E6%95%B0_(Bedrock_Edition)](https://minecraft.fandom.com/ja/wiki/%E9%96%A2%E6%95%B0_(Bedrock_Edition))にしたがって関数化するといいかもしれない。
 5. 合計点を元に6段階でうつの程度を分類して結果に応じて色の違うブロックをコマンドブロック実行者に渡す。
 ```
 /give @p[scores={bdi=0..10}] wool 1 13 (緑)

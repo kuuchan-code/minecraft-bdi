@@ -4,6 +4,9 @@
 # インターフェスの例
 ![インターフェスの例](screenshot-2022-11-12.png "サンプル")
 
+# コマンドについて
+(): この括弧書きとその中身は入力しないでください。括弧中のdelayはtickrateが20の時のtick数です。
+
 1. 初期化
 ```
 /scoreboard objectives add bdi dummy BDI

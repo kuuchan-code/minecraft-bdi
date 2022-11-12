@@ -172,5 +172,5 @@ BDIの設問文や結果の日本語訳は[https://www.sannoclinic.jp/bdi.html](
 /give @p[scores={bdi=31..40}] wool 1 14 (赤)
 /give @p[scores={bdi=41..}] wool 1 14 (赤)
 /title @p title 色付きの羊毛を渡しました。
-/title @p subtitle 毎日続けることでブロックが並び、体調の波がわかります。
+/title @p subtitle 毎日続けてブロックを並べることで、体調の波がわかります。
 ```

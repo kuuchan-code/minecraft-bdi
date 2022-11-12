@@ -173,4 +173,6 @@ BDIの設問文や結果の日本語訳は[https://www.sannoclinic.jp/bdi.html](
 /give @p[scores={bdi=41..}] wool 1 14 (赤)
 /title @p title 色付きの羊毛を渡しました。
 /title @p subtitle 毎日続けてブロックを並べることで、体調の波がわかります。
+/scoreboard players list @p
+/scoreboard players reset @p bdi
 ```

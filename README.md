@@ -6,8 +6,8 @@
 ```
 2. 設問と選択肢の表示
 ```
-/titleraw @p subtitle {"rawtext":[{"text":"a: 憂うつではない\nb: 憂うつである\nc: いつも憂うつから逃れることができない\nd: 耐えがたいほど、憂うつで不幸である"}]}
 /title @p title 1.
+/titleraw @p subtitle {"rawtext":[{"text":"a: 憂うつではない\nb: 憂うつである\nc: いつも憂うつから逃れることができない\nd: 耐えがたいほど、憂うつで不幸である"}]}
 ```
 3. 看板もしくはランプの形 (0-3や◎○△×など) に従った選択肢を選択し (0-3) の点を変数へ加算していく。 
 ```
@@ -18,122 +18,122 @@
 4. 2と3のループを設問数分だけ行い合計点を得る。
 
 ```
-/titleraw @p subtitle {"rawtext":[{"text":"a: 将来について悲観してはいない\nb: 将来について悲観している\nc: 将来に希望がない\nd: 将来に何の希望もなく、良くなる可能性もない"}]}
 /title @p title 2.
+/titleraw @p subtitle {"rawtext":[{"text":"a: 将来について悲観してはいない\nb: 将来について悲観している\nc: 将来に希望がない\nd: 将来に何の希望もなく、良くなる可能性もない"}]}
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 1 scoreboard players add @p bdi 1　(delay 220)
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 8 scoreboard players add @p bdi 2
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 14 scoreboard players add @p bdi 3
 
-/titleraw @p subtitle {"rawtext":[{"text":"a: それほど失敗するようには感じない\nb: 普通より、よく失敗するように思う\nc: 過去のことをふりかえれば、失敗のことばかり思い出す\nd: 人間として全く失敗だと思う"}]}
 /title @p title 3.
+/titleraw @p subtitle {"rawtext":[{"text":"a: それほど失敗するようには感じない\nb: 普通より、よく失敗するように思う\nc: 過去のことをふりかえれば、失敗のことばかり思い出す\nd: 人間として全く失敗だと思う"}]}
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 1 scoreboard players add @p bdi 1　(delay 220)
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 8 scoreboard players add @p bdi 2
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 14 scoreboard players add @p bdi 3
 
-/titleraw @p subtitle {"rawtext":[{"text":"a: 以前と同じように満足している\nb: 以前のようにものごとが楽しめなくなった\nc: もう本当の意味で満足することなどできない\nd: 何もかもうんざりする"}]}
 /title @p title 4.
+/titleraw @p subtitle {"rawtext":[{"text":"a: 以前と同じように満足している\nb: 以前のようにものごとが楽しめなくなった\nc: もう本当の意味で満足することなどできない\nd: 何もかもうんざりする"}]}
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 1 scoreboard players add @p bdi 1　(delay 220)
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 8 scoreboard players add @p bdi 2
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 14 scoreboard players add @p bdi 3
 
-/titleraw @p subtitle {"rawtext":[{"text":"a: 罪の意識など感じない\nb: ときどき罪の意識を感じる\nc: ほとんどいつも罪の意識を感じる\nd: いつも罪の意識を感じる"}]}
 /title @p title 5.
+/titleraw @p subtitle {"rawtext":[{"text":"a: 罪の意識など感じない\nb: ときどき罪の意識を感じる\nc: ほとんどいつも罪の意識を感じる\nd: いつも罪の意識を感じる"}]}
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 1 scoreboard players add @p bdi 1　(delay 220)
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 8 scoreboard players add @p bdi 2
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 14 scoreboard players add @p bdi 3
 
-/titleraw @p subtitle {"rawtext":[{"text":"a: 罰を受けるとは思わない\nb: 罰を受けるかもしれない\nc: 罰を受けると思う\nd: 今、罰を受けていると思う"}]}
 /title @p title 6.
+/titleraw @p subtitle {"rawtext":[{"text":"a: 罰を受けるとは思わない\nb: 罰を受けるかもしれない\nc: 罰を受けると思う\nd: 今、罰を受けていると思う"}]}
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 1 scoreboard players add @p bdi 1　(delay 220)
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 8 scoreboard players add @p bdi 2
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 14 scoreboard players add @p bdi 3
 
-/titleraw @p subtitle {"rawtext":[{"text":"a: 自分自身に失望してはいない\nb: 自分自身に失望している\nc: 自分自身にうんざりする\nd: 自分自身を憎む"}]}
 /title @p title 7.
+/titleraw @p subtitle {"rawtext":[{"text":"a: 自分自身に失望してはいない\nb: 自分自身に失望している\nc: 自分自身にうんざりする\nd: 自分自身を憎む"}]}
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 1 scoreboard players add @p bdi 1　(delay 220)
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 8 scoreboard players add @p bdi 2
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 14 scoreboard players add @p bdi 3
 
-/titleraw @p subtitle {"rawtext":[{"text":"a: 他の人より自分が劣っているとは思わない\nb: 自分の欠点やあやまちに対し批判的である\nc: 自分の失敗に対していつも自らを責める\nd: 何か悪いことが起こると、自分のせいだと自らを責める"}]}
 /title @p title 8.
+/titleraw @p subtitle {"rawtext":[{"text":"a: 他の人より自分が劣っているとは思わない\nb: 自分の欠点やあやまちに対し批判的である\nc: 自分の失敗に対していつも自らを責める\nd: 何か悪いことが起こると、自分のせいだと自らを責める"}]}
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 1 scoreboard players add @p bdi 1　(delay 220)
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 8 scoreboard players add @p bdi 2
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 14 scoreboard players add @p bdi 3
 
-/titleraw @p subtitle {"rawtext":[{"text":"a: 自殺しようと全く思わない\nb: 死にたいと思うことはあるが、自殺を実行しようとは思わない\nc: 自殺したいと思う\nd: チャンスがあれば自殺するつもりである"}]}
 /title @p title 9.
+/titleraw @p subtitle {"rawtext":[{"text":"a: 自殺しようと全く思わない\nb: 死にたいと思うことはあるが、自殺を実行しようとは思わない\nc: 自殺したいと思う\nd: チャンスがあれば自殺するつもりである"}]}
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 1 scoreboard players add @p bdi 1　(delay 220)
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 8 scoreboard players add @p bdi 2
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 14 scoreboard players add @p bdi 3
 
-/titleraw @p subtitle {"rawtext":[{"text":"a: いつも以上に泣くことはない\nb: 以前よりも泣く\nc: いつも泣いてばかりいる\nd: 以前は泣くことができたが、今はそうしたくても泣くこともできない"}]}
 /title @p title 10.
+/titleraw @p subtitle {"rawtext":[{"text":"a: いつも以上に泣くことはない\nb: 以前よりも泣く\nc: いつも泣いてばかりいる\nd: 以前は泣くことができたが、今はそうしたくても泣くこともできない"}]}
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 1 scoreboard players add @p bdi 1　(delay 220)
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 8 scoreboard players add @p bdi 2
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 14 scoreboard players add @p bdi 3
 
-/titleraw @p subtitle {"rawtext":[{"text":"a: イライラしていない\nb: いつもより少しイライラしている\nc: しょっちゅうイライラしている\nd: 現在はたえずイライラしている"}]}
 /title @p title 11.
+/titleraw @p subtitle {"rawtext":[{"text":"a: イライラしていない\nb: いつもより少しイライラしている\nc: しょっちゅうイライラしている\nd: 現在はたえずイライラしている"}]}
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 1 scoreboard players add @p bdi 1　(delay 220)
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 8 scoreboard players add @p bdi 2
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 14 scoreboard players add @p bdi 3
 
-/titleraw @p subtitle {"rawtext":[{"text":"a: 他の人に対する関心を失っていない\nb: 以前より他の人に対する関心がなくなった\nc: 他の人に対する関心をほとんど失った \nd: 他の人に対する関心を全く失った"}]}
 /title @p title 12.
+/titleraw @p subtitle {"rawtext":[{"text":"a: 他の人に対する関心を失っていない\nb: 以前より他の人に対する関心がなくなった\nc: 他の人に対する関心をほとんど失った \nd: 他の人に対する関心を全く失った"}]}
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 1 scoreboard players add @p bdi 1　(delay 220)
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 8 scoreboard players add @p bdi 2
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 14 scoreboard players add @p bdi 3
 
-/titleraw @p subtitle {"rawtext":[{"text":"a: いつもと同じように決断することができる\nb: 以前より決断をのばす\nc: 以前より決断がはるかに難しい\nd: もはや全く決断することができない"}]}
 /title @p title 13.
+/titleraw @p subtitle {"rawtext":[{"text":"a: いつもと同じように決断することができる\nb: 以前より決断をのばす\nc: 以前より決断がはるかに難しい\nd: もはや全く決断することができない"}]}
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 1 scoreboard players add @p bdi 1　(delay 220)
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 8 scoreboard players add @p bdi 2
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 14 scoreboard players add @p bdi 3
 
-/titleraw @p subtitle {"rawtext":[{"text":"a: 以前より醜いとは思わない\nb: 老けて見えるのでないか、魅力がないのではないかと心配である\nc: もう自分には魅力がなくなったように感じる\nd: 自分は醜いにちがいないと思う"}]}
 /title @p title 14.
+/titleraw @p subtitle {"rawtext":[{"text":"a: 以前より醜いとは思わない\nb: 老けて見えるのでないか、魅力がないのではないかと心配である\nc: もう自分には魅力がなくなったように感じる\nd: 自分は醜いにちがいないと思う"}]}
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 1 scoreboard players add @p bdi 1　(delay 220)
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 8 scoreboard players add @p bdi 2
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 14 scoreboard players add @p bdi 3
 
-/titleraw @p subtitle {"rawtext":[{"text":"a: いつもどおりに働ける\nb: 何かやり始めるのにいつもより努力が必要である\nc: 何をやるのにも大変な努力がいる\nd: 何をすることもできない"}]}
 /title @p title 15.
+/titleraw @p subtitle {"rawtext":[{"text":"a: いつもどおりに働ける\nb: 何かやり始めるのにいつもより努力が必要である\nc: 何をやるのにも大変な努力がいる\nd: 何をすることもできない"}]}
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 1 scoreboard players add @p bdi 1　(delay 220)
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 8 scoreboard players add @p bdi 2
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 14 scoreboard players add @p bdi 3
 
-/titleraw @p subtitle {"rawtext":[{"text":"a: 	いつもどおりよく眠れる\nb: いつもよりも眠れない\nc: いつもより 1 ～ 2 時間早く目が覚め、再び寝つくことが難しい\nd: いつもより数時間も早く目が覚め、再び寝つくことができない"}]}
 /title @p title 16.
+/titleraw @p subtitle {"rawtext":[{"text":"a: 	いつもどおりよく眠れる\nb: いつもよりも眠れない\nc: いつもより 1 ～ 2 時間早く目が覚め、再び寝つくことが難しい\nd: いつもより数時間も早く目が覚め、再び寝つくことができない"}]}
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 1 scoreboard players add @p bdi 1　(delay 220)
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 8 scoreboard players add @p bdi 2
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 14 scoreboard players add @p bdi 3
 
-/titleraw @p subtitle {"rawtext":[{"text":"a: いつもより疲れた感じはしない\nb: 以前より疲れやすい\nc: ほとんど何をやるのにも疲れる\nd: 疲れて何もできない"}]}
 /title @p title 17.
+/titleraw @p subtitle {"rawtext":[{"text":"a: いつもより疲れた感じはしない\nb: 以前より疲れやすい\nc: ほとんど何をやるのにも疲れる\nd: 疲れて何もできない"}]}
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 1 scoreboard players add @p bdi 1　(delay 220)
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 8 scoreboard players add @p bdi 2
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 14 scoreboard players add @p bdi 3
 
-/titleraw @p subtitle {"rawtext":[{"text":"a: いつもどおり食欲はある\nb: いつもより食欲がない\nc: ほとんど食欲がない\nd: 全く食欲がない"}]}
 /title @p title 18.
+/titleraw @p subtitle {"rawtext":[{"text":"a: いつもどおり食欲はある\nb: いつもより食欲がない\nc: ほとんど食欲がない\nd: 全く食欲がない"}]}
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 1 scoreboard players add @p bdi 1　(delay 220)
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 8 scoreboard players add @p bdi 2
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 14 scoreboard players add @p bdi 3
 
-/titleraw @p subtitle {"rawtext":[{"text":"a: 最近それほどやせたということはない\nb: 最近 2 kg 以上やせた\nc: 最近 4 kg 以上やせた\nd: 最近 6 kg 以上やせた"}]}
 /title @p title 19.
+/titleraw @p subtitle {"rawtext":[{"text":"a: 最近それほどやせたということはない\nb: 最近 2 kg 以上やせた\nc: 最近 4 kg 以上やせた\nd: 最近 6 kg 以上やせた"}]}
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 1 scoreboard players add @p bdi 1　(delay 220)
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 8 scoreboard players add @p bdi 2
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 14 scoreboard players add @p bdi 3
 
-/titleraw @p subtitle {"rawtext":[{"text":"a: 自分の健康のことをいつも以上に心配することはない\nb: どこかが痛いとか、胃が悪いとか、便秘など自分の身体の調子を気遣う\nc: 自分の身体の具合のことばかり心配し、他のことがあまり考えられない\nd: 自分の身体の具合のことばかり心配し、他のことを全く考えられない"}]}
 /title @p title 20.
+/titleraw @p subtitle {"rawtext":[{"text":"a: 自分の健康のことをいつも以上に心配することはない\nb: どこかが痛いとか、胃が悪いとか、便秘など自分の身体の調子を気遣う\nc: 自分の身体の具合のことばかり心配し、他のことがあまり考えられない\nd: 自分の身体の具合のことばかり心配し、他のことを全く考えられない"}]}
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 1 scoreboard players add @p bdi 1　(delay 220)
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 8 scoreboard players add @p bdi 2
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 14 scoreboard players add @p bdi 3
 
-/titleraw @p subtitle {"rawtext":[{"text":"a: 性欲はいつもとかわりない\nb: 以前と比べて性欲がない\nc: 性欲がほとんどない\nd: 性欲が全くない"}]}
 /title @p title 21.
+/titleraw @p subtitle {"rawtext":[{"text":"a: 性欲はいつもとかわりない\nb: 以前と比べて性欲がない\nc: 性欲がほとんどない\nd: 性欲が全くない"}]}
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 1 scoreboard players add @p bdi 1　(delay 220)
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 8 scoreboard players add @p bdi 2
 /execute @p ~ ~ ~ detect ~ ~-1 ~ wool 14 scoreboard players add @p bdi 3

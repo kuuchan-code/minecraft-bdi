@@ -152,17 +152,17 @@
 ```
 /title @p reset
 /title @p clear
-/title @p[scores={bdi=..10}] title 0~10; 緑色の羊毛
+/title @p[scores={bdi=..10}] title 0-10; 緑色の羊毛
 /title @p[scores={bdi=..10}] subtitle この程度の落ち込みは正常範囲です。ただの憂うつな状態です。
-/title @p[scores={bdi=11..16}] title 11~16; 黄色の羊毛
+/title @p[scores={bdi=11..16}] title 11-16; 黄色の羊毛
 /title @p[scores={bdi=11..16}] subtitle ノイローゼ気味です。軽いうつ状態です。
-/title @p[scores={bdi=17..20}] title 17~20; 黄色の羊毛
+/title @p[scores={bdi=17..20}] title 17-20; 黄色の羊毛
 /title @p[scores={bdi=17..20}] subtitle 臨床的な意味でのうつ状態との境界です。専門家の治療が必要です。
-/title @p[scores={bdi=21..30}] title 21~30; オレンジの羊毛
+/title @p[scores={bdi=21..30}] title 21-30; オレンジの羊毛
 /title @p[scores={bdi=21..30}] subtitle 中程度のうつ状態です。専門家の治療が必要です。
-/title @p[scores={bdi=31..40}] title 31~40; 赤の羊毛
+/title @p[scores={bdi=31..40}] title 31-40; 赤の羊毛
 /title @p[scores={bdi=31..40}] subtitle 重いうつ状態です。専門家の治療が必要です。
-/title @p[scores={bdi=40..}] title 41~; 赤の羊毛
+/title @p[scores={bdi=40..}] title 41-; 赤の羊毛
 /title @p[scores={bdi=40..}] subtitle 極度のうつ状態です。専門家の治療が必要です。
 /give @p[scores={bdi=..10}] wool 1 13 (緑)
 /give @p[scores={bdi=11..16}] wool 1 5 (黄緑)

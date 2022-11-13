@@ -2,8 +2,8 @@
 うつの程度を評価してくれるテストをMinecraft統合版で行えるようにしたときに使ったコマンドです。
 BDIの設問文や結果の日本語訳は[https://www.sannoclinic.jp/bdi.html](https://www.sannoclinic.jp/bdi.html)を参考にさせていただきました。
 
-# インターフェスの例
-![インターフェスの例](screenshot-2022-11-12.png "サンプル")
+# インターフェイスの例
+![インターフェイスの例](screenshot-2022-11-12.png "サンプル")
 
 # コマンドについて
 (): この括弧書きとその中身は入力しないでください。括弧中のdelayはtickrateが20の時のtick数です。
@@ -163,8 +163,8 @@ BDIの設問文や結果の日本語訳は[https://www.sannoclinic.jp/bdi.html](
 /title @p[scores={bdi=21..30}] subtitle 中程度のうつ状態です。専門家の治療が必要です。
 /title @p[scores={bdi=31..40}] title 31-40; 赤の羊毛
 /title @p[scores={bdi=31..40}] subtitle 重いうつ状態です。専門家の治療が必要です。
-/title @p[scores={bdi=40..}] title 41-; 赤の羊毛
-/title @p[scores={bdi=40..}] subtitle 極度のうつ状態です。専門家の治療が必要です。
+/title @p[scores={bdi=41..}] title 41-; 赤の羊毛
+/title @p[scores={bdi=41..}] subtitle 極度のうつ状態です。専門家の治療が必要です。
 /give @p[scores={bdi=..10}] wool 1 13 (緑)
 /give @p[scores={bdi=11..16}] wool 1 5 (黄緑)
 /give @p[scores={bdi=17..20}] wool 1 4 (黄色)
